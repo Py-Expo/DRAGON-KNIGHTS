@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vital Monitor</title>
+</head>
+<body>
+    <h1>Vital Monitor</h1>
+    <p>Heartbeat: {{ heartbeat }} BPM</p>
+    <p>Temperature: {{ temperature }} °C</p>
+    <p>Pulse: {{ pulse }} BPM</p>
+    <h1>Current GPS Coordinates</h1>
+    <p>Latitude: {{ latitude }}</p>
+    <p>Longitude: {{ longitude }}</p>
+</body>
+</html>
